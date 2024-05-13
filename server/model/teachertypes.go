@@ -8,7 +8,7 @@ import (
 
 type Teacher struct {
 	ID        primitive.ObjectID `bson:"_id,omitempty" json:"id,omitempty"`
-	TeacherID string             `bson:"teacherID,omitempty" json:"id,omitempty"`
+	TeacherID string             `bson:"teacherID,omitempty" json:"teacherID,omitempty"`
 	Name      string             `bson:"name,omitempty" json:"name,omitempty"`
 	Contact   string             `bson:"contact,omitempty" json:"contact,omitempty"`
 	UpdateAt  time.Time          `bson:"updateAt,omitempty" json:"updateAt,omitempty"`
