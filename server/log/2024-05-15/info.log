@@ -1,0 +1,24 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:14:47.973	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:14:47.989	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:14:47.990	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:14:47.990	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:38:24.836	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:38:24.853	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:38:24.853	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:38:24.853	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:40:48.753	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:40:48.769	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:40:48.770	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:40:48.770	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:41:43.864	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:41:43.880	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:41:43.880	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:41:43.880	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:42:30.356	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:42:30.374	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:42:30.375	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:42:30.375	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:48:07.442	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:48:07.459	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:48:07.459	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 00:48:07.459	[34minfo[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:37	server run success on 	{"address": ":18888"}

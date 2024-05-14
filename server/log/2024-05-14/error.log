@@ -1,0 +1,96 @@
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:12:45.972	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:16:01.580	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:23:29.933	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:24:53.986	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:34:21.158	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:35:17.060	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:47:14.133	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:50:21.552	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:53	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:52:23.531	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:23	server selection error: context deadline exceeded, current topology: { Type: Unknown, Servers: [{ Addr: 127.0.0.1:27017, Type: Unknown, Last error: connection(127.0.0.1:27017[-33]) incomplete read of message header: read tcp 127.0.0.1:60299->127.0.0.1:27017: read: connection reset by peer }, ] }
+链接mongodb数据库失败!
+github.com/flipped-aurora/gin-vue-admin/server/initialize.(*mongo).Initialization
+	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/mongo.go:64
+github.com/flipped-aurora/gin-vue-admin/server/core.RunWindowsServer
+	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:21
+main.main
+	/Users/mac/Desktop/homework/gin-vue-admin/server/main.go:38
+runtime.main
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/proc.go:271
+runtime.goexit
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/asm_arm64.s:1222
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:53:10.292	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 00:53:37.792	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 13:49:43.004	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/api/v1/system/sys_api.go:166	修改失败!	{"error": "存在相同api路径"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 13:49:46.937	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/api/v1/system/sys_api.go:166	修改失败!	{"error": "存在相同api路径"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 13:49:53.796	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/api/v1/system/sys_api.go:166	修改失败!	{"error": "存在相同api路径"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 13:51:39.889	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 14:05:59.898	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 14:07:46.536	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 14:08:22.008	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 14:08:56.314	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 14:15:30.253	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 15:45:18.151	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 16:25:24.323	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 16:56:40.149	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:00:22.992	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:03:49.207	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:24:36.590	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:25:10.650	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:33:49.048	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:23	server selection error: context deadline exceeded, current topology: { Type: Unknown, Servers: [{ Addr: 127.0.0.1:27017, Type: Unknown, Last error: dial tcp 127.0.0.1:27017: connect: connection refused }, ] }
+链接mongodb数据库失败!
+github.com/flipped-aurora/gin-vue-admin/server/initialize.(*mongo).Initialization
+	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/mongo.go:64
+github.com/flipped-aurora/gin-vue-admin/server/core.RunWindowsServer
+	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:21
+main.main
+	/Users/mac/Desktop/homework/gin-vue-admin/server/main.go:38
+runtime.main
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/proc.go:271
+runtime.goexit
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/asm_arm64.s:1222
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:34:26.803	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:34:43.974	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:23	server selection error: context deadline exceeded, current topology: { Type: Unknown, Servers: [{ Addr: 127.0.0.1:27017, Type: Unknown }, ] }
+链接mongodb数据库失败!
+github.com/flipped-aurora/gin-vue-admin/server/initialize.(*mongo).Initialization
+	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/mongo.go:64
+github.com/flipped-aurora/gin-vue-admin/server/core.RunWindowsServer
+	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:21
+main.main
+	/Users/mac/Desktop/homework/gin-vue-admin/server/main.go:38
+runtime.main
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/proc.go:271
+runtime.goexit
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/asm_arm64.s:1222
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:38:31.972	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:23	server selection error: context deadline exceeded, current topology: { Type: Unknown, Servers: [{ Addr: 127.0.0.1:27017, Type: Unknown, Last error: connection(127.0.0.1:27017[-8]) incomplete read of message header: read tcp 127.0.0.1:64109->127.0.0.1:27017: read: connection reset by peer }, ] }
+链接mongodb数据库失败!
+github.com/flipped-aurora/gin-vue-admin/server/initialize.(*mongo).Initialization
+	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/mongo.go:64
+github.com/flipped-aurora/gin-vue-admin/server/core.RunWindowsServer
+	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:21
+main.main
+	/Users/mac/Desktop/homework/gin-vue-admin/server/main.go:38
+runtime.main
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/proc.go:271
+runtime.goexit
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/asm_arm64.s:1222
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:40:44.761	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:41:02.789	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:23	server selection error: context deadline exceeded, current topology: { Type: Unknown, Servers: [{ Addr: 127.0.0.1:27017, Type: Unknown, Last error: connection(127.0.0.1:27017[-6]) incomplete read of message header: read tcp 127.0.0.1:57446->127.0.0.1:27017: read: connection reset by peer }, ] }
+链接mongodb数据库失败!
+github.com/flipped-aurora/gin-vue-admin/server/initialize.(*mongo).Initialization
+	/Users/mac/Desktop/homework/gin-vue-admin/server/initialize/mongo.go:64
+github.com/flipped-aurora/gin-vue-admin/server/core.RunWindowsServer
+	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:21
+main.main
+	/Users/mac/Desktop/homework/gin-vue-admin/server/main.go:38
+runtime.main
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/proc.go:271
+runtime.goexit
+	/Users/mac/go/pkg/mod/golang.org/toolchain@v0.0.1-go1.22.2.darwin-arm64/src/runtime/asm_arm64.s:1222
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:42:18.071	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:8888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:43:07.723	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:44:55.026	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 17:59:24.356	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 18:18:33.382	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 19:53:49.159	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 23:31:11.993	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/14 - 23:43:58.319	[31merror[0m	/Users/mac/Desktop/homework/gin-vue-admin/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
