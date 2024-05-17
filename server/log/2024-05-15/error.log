@@ -21,3 +21,6 @@ runtime.goexit
 [github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 01:32:03.270	[31merror[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:39	net.Listen error: listen tcp :18888: bind: address already in use
 [github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 01:32:24.524	[31merror[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:39	net.Listen error: listen tcp :18888: bind: address already in use
 [github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 01:34:14.441	[31merror[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 11:55:16.291	[31merror[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 12:09:45.147	[31merror[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 23:58:10.422	[31merror[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:39	accept tcp [::]:18888: use of closed network connection

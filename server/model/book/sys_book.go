@@ -41,6 +41,17 @@ type Author struct {
 	ID   string `bson:"id,omitempty" json:"id,omitempty"`
 	Rank int    `bson:"rank,omitempty" json:"rank,omitempty"`
 }
+type UpdateBookReq struct {
+	Name      string   `bson:"name,omitempty" json:"name,omitempty"`
+	College   string   `bson:"college,omitempty" json:"college,omitempty"`
+	Publisher string   `bson:"publisher,omitempty" json:"publisher,omitempty"`
+	Year      string   `bson:"year,omitempty" json:"year,omitempty"`
+	ISBN      string   `bson:"isbn,omitempty" json:"isbn,omitempty"`
+	Authors   []Author `bson:"authors,omitempty" json:"authors,omitempty"`
+}
+type UpdateBookResp struct {
+	Flag bool `json:"flag"`
+}
 type InsertBookReq struct {
 	Name      string   `bson:"name,omitempty" json:"name,omitempty"`
 	College   string   `bson:"college,omitempty" json:"college,omitempty"`

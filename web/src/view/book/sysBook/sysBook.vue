@@ -63,13 +63,53 @@
       />
       <el-button  type="primary" @click="InsertBook">新增</el-button>
     </div>
+    <div class="gva-form-box">
+      <el-input
+          v-model="nameUpdateReq"
+          style="width: 180px"
+          placeholder="教材名"
+          clearable
+      />
+      <el-input
+          v-model="collegeUpdateReq"
+          style="width: 180px"
+          placeholder="学院"
+          clearable
+      />
+      <el-input
+          v-model="publisherUpdateReq"
+          style="width: 180px"
+          placeholder="出版社"
+          clearable
+      />
+      <el-input
+          v-model="yearUpdateReq"
+          style="width: 180px"
+          placeholder="year"
+          clearable
+      />
+      <el-input
+          v-model="isbnUpdateReq"
+          style="width: 180px"
+          placeholder="isbn"
+          clearable
+      />
+      <el-input
+          v-model="idsUpdateReq"
+          style="width: 180px"
+          placeholder="工号使用，分割"
+          clearable
+      />
+      <el-button  type="primary"
+                  @click="UpdateBook">修改</el-button>
+    </div>
   </div>
 </template>
 
 <script setup>
 import {ref} from 'vue'
 import {Search} from '@element-plus/icons-vue'
-import {getBooksList, insertBook} from "@/api/book/sysBook"
+import {getBooksList, insertBook,updateBook} from "@/api/book/sysBook"
 import {ElMessage} from "element-plus";
 
 const input = ref('')
@@ -80,6 +120,52 @@ const publisherReq = ref('')
 const yearReq = ref('')
 const isbnReq = ref('')
 const idsReq = ref('')
+const nameUpdateReq = ref('')
+const collegeUpdateReq = ref('')
+const publisherUpdateReq = ref('')
+const yearUpdateReq = ref('')
+const isbnUpdateReq = ref('')
+const idsUpdateReq = ref('')
+const UpdateBook = async ()=>{
+  let data = {
+    name: nameUpdateReq.value,
+    college: collegeUpdateReq.value,
+    publisher: publisherUpdateReq.value,
+    year: yearUpdateReq.value,
+    isbn: isbnUpdateReq.value,
+    authors: idsUpdateReq.value.split(',').map(id => ({id}))
+  }
+
+  // 检查所有字段是否不为空
+  if (!data.name || !data.college || !data.publisher || !data.year || !data.isbn || !data.authors.length) {
+    ElMessage({
+      message: '所有字段都是必填项，请检查输入。',
+      type: 'warning',
+    });
+    return;
+  }
+  let resp = await updateBook(data)
+  if (resp.code === 0) {
+    console.log(resp)
+    if (resp.data.flag === true) {
+      ElMessage({
+        message: '修改成功',
+        type: 'success',
+      })
+    } else {
+      ElMessage({
+        message: '修改失败',
+        type: 'error',
+      })
+    }
+  } else {
+    ElMessage({
+      message: '修改失败',
+      type: 'error',
+    })
+  }
+}
+
 const InsertBook = async () => {
   let data = {
     name: nameReq.value,

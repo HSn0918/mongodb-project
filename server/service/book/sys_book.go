@@ -129,3 +129,12 @@ func (sysBookService *SysBookService) EChart() (*book.EChart, error) {
 
 	return eChart, nil
 }
+
+func (sysBookService *SysBookService) UpdateBookById(req book.UpdateBookReq) (*book.UpdateBookResp, error) {
+	coll := global.GVA_MONGO.Database.Collection("book")
+	err := coll.UpdateOne(context.TODO(), bson.M{"name": req.Name}, bson.M{"$set": req})
+	if err != nil {
+		return &book.UpdateBookResp{Flag: false}, err
+	}
+	return &book.UpdateBookResp{Flag: true}, nil
+}

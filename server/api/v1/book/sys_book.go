@@ -16,6 +16,21 @@ type SysBookApi struct {
 
 var sysBookService = service.ServiceGroupApp.BookServiceGroup.SysBookService
 
+func (SysBookApi *SysBookApi) UpdataBookById(c *gin.Context) {
+	var req book.UpdateBookReq
+	err := c.ShouldBindJSON(&req)
+	if err != nil {
+		response.FailWithMessage(err.Error(), c)
+		return
+	}
+	resp, err := sysBookService.UpdateBookById(req)
+	if err != nil {
+		global.GVA_LOG.Error("更新失败!", zap.Error(err))
+		response.FailWithMessage("更新失败", c)
+		return
+	}
+	response.OkWithDetailed(resp, "更新成功", c)
+}
 func (sysBookApi *SysBookApi) EChart(c *gin.Context) {
 	var eChart *book.EChart
 	eChart, err := sysBookService.EChart()

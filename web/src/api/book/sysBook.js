@@ -1,6 +1,12 @@
 import service from '@/utils/request'
 
-
+export const updateBook = (data) => {
+  return service({
+    url:"/sysBook/UpdateBook",
+    method:"post",
+    data
+  })
+}
 export const getEchart = ()=>{
   return service({
     url:"/sysBook/echart",

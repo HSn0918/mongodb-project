@@ -43,3 +43,15 @@
 [github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 01:33:49.471	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:60	register swagger handler
 [github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 01:33:49.474	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:104	router register success
 [github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 01:33:49.474	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 10:44:44.140	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 10:44:44.151	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 10:44:44.152	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 10:44:44.152	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 11:56:15.496	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 11:56:15.507	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 11:56:15.508	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 11:56:15.508	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:37	server run success on 	{"address": ":18888"}
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 12:09:45.135	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/gorm.go:63	register table success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 12:09:45.147	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:60	register swagger handler
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 12:09:45.147	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/initialize/router.go:104	router register success
+[github.com/flipped-aurora/gin-vue-admin/server]2024/05/15 - 12:09:45.147	[34minfo[0m	/Users/mac/Desktop/homework/mongodb-project/server/core/server.go:37	server run success on 	{"address": ":18888"}
