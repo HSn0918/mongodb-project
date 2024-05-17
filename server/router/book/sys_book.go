@@ -30,7 +30,7 @@ func (s *SysBookRouter) InitSysBookRouter(Router *gin.RouterGroup, PublicRouter 
 		sysBookRouterWithoutAuth.GET("getSysBookPublic", sysBookApi.GetSysBookPublic) // 获取教材列表
 		sysBookRouterWithoutAuth.POST("FindBookByTeacherName", sysBookApi.FindBookByTeacherName)
 		sysBookRouterWithoutAuth.POST("InsertBook", sysBookApi.InsertBook)
-		sysBookRouterWithoutAuth.POST("UpdateBook", sysBookApi.UpdataBookById)
+		sysBookRouterWithoutAuth.POST("UpdateBook", sysBookApi.UpdateBookById)
 		sysBookRouterWithoutAuth.GET("echart", sysBookApi.EChart)
 	}
 }

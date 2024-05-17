@@ -16,7 +16,7 @@ type SysBookApi struct {
 
 var sysBookService = service.ServiceGroupApp.BookServiceGroup.SysBookService
 
-func (SysBookApi *SysBookApi) UpdataBookById(c *gin.Context) {
+func (SysBookApi *SysBookApi) UpdateBookById(c *gin.Context) {
 	var req book.UpdateBookReq
 	err := c.ShouldBindJSON(&req)
 	if err != nil {
